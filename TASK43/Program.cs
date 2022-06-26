@@ -39,7 +39,7 @@ int [] ArrayForAnalice = GetArrayFromString(ReadLine());
 
 while (ArrayForAnalice.Length %2 != 0 || ArrayForAnalice.Length /2 == 1 || ArrayForAnalice.Length == 2)
 {
-    WriteLine("Введено не парное количество значени1 переменных b и k, пожалуйста повторите ввод:");
+    WriteLine("Введено не парное количество значени1 переменных K и B, пожалуйста повторите ввод:");
     ArrayForAnalice = GetArrayFromString(ReadLine());
 }
 
